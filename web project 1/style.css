@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: america-b;
-    src: url(./GT-America-Compressed-Bold.ttf);
+    src: url(./GT-America/GT-America-Condensed-Black-Trial.otf);
 }
 
 
@@ -121,15 +121,15 @@ path{
     fill: inherit;
 }
 #page1 h1{
-    font-size:15vw;
+    font-size:11vw;
     width: 100%;
     text-transform: uppercase;
     color: #c45508;
-    padding: 0 10px;
+    padding: 0 50px;
     position: absolute;
     align-items: center;
     bottom: -5%;
-    font-weight: 900;
+    font-weight: 800;
     scale: 1;
     z-index: 9;
     font-family: "america-b";
@@ -143,7 +143,7 @@ path{
     font-family: gilroy;
     font-weight: 400;
     left: 2vw;
-    top: 10%;
+    top: 1%;
     
 }
 
@@ -154,7 +154,7 @@ path{
     font-family: gilroy;
     font-weight: 400;
     right: 5vw;
-    top: 10%;
+    top: 1%;
 }
 
 #scroll{
@@ -278,18 +278,20 @@ path{
 
 }
 #page2 h1{
-    font-size: 13vw;
+    font-size: 11vw;
     line-height: 9.7vw;
     word-spacing: -16px;
     letter-spacing: -4px;
     text-align: center;
-    padding: 100px 100px;
+    padding: 100px 10px;
     color: #111;
     position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./map.webp);
     background-color: #fff;
-    background-image: url(https://cdn.sanity.io/images/sjvffa0f/production/217c65c6aa3412acac7b3d2fa8adc9020e487780-2724x1936.jpg/map.jpg?rect=1,0,2723,1936&w=1024&h=728&auto=format);
-    background-position: 0% 1200%;
-    background-repeat: no-repeat;
+    background-position: 0% 2000%;
+    /* background-repeat: no-repeat; */
     font-family: america-b;
 }
 #page2 h1::before{
@@ -329,12 +331,12 @@ path{
     rotate: -5deg;
 }
 #page2 h2{
-    font-size: 13vw;
+    font-size: 11vw;
     line-height: 9.7vw;
     word-spacing: -16px;
     letter-spacing: -4px;
     text-align: center;
-    padding: 0px 100px;
+    padding: 0px 20px;
     color: #111;
     position: relative;
     font-family: america-b;
